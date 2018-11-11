@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+</head>
+<body>
+<form method="post" action="xml.php" enctype="multipart/form-data">
+
+	Nazwisko: <input type='text' name='nazwisko' size='25' />
+<br>Który kolor wolisz?<br>
+<label for="1"><input type='radio' name='kolor' value="Bialy" id="1">Biały</label> <br> 
+<label for="2"><input type='radio' name='kolor' value="Czarny" id="2">Czarny <br> </label>
+
+<select name="dni" size="7">
+	<option value="Poniedzialek" />Poniedzialek
+	<option value="Wtorek" />Wtorek
+	<option value="Sroda" />Sroda
+	<option value="Czwartek" />Czwartek
+	<option value="Piatek" />Piatek
+	<option value="Sobota" />Sobota
+	<option value="Niedziela" />Niedziela
+	</select><br>
+<input type="file" name="plik" size="40">
+<br>
+<input type="submit" value="Przeslij"/>
+</form>
+
+</body>
+</html>
